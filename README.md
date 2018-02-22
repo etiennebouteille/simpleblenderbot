@@ -25,3 +25,6 @@ and copy those lines
 0 * * * * sudo python /home/pi/robot/twitterbot.py
 1 * * * * blender -b /home/pi/robot/suzanne.blend --python home/pi/robot/mycode.py
 ``` 
+
+More detailed instructions here : 
+https://medium.com/@etienne.bouteille/creating-a-twitter-bot-with-blender-and-a-raspberry-pi-3032660255a

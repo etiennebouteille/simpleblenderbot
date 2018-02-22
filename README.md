@@ -20,8 +20,8 @@ Last thing you need to do is open the crontab
 ```
 crontab -e
 ```
-and paste those lines
+and copy those lines
 ```
-* * * * * fswebcam /home/pi/SillyTweeter/mypicture.png
-* * * * * python /home/pi/SillyTweeter/SillyTweeter.py
+0 * * * * sudo python /home/pi/robot/twitterbot.py
+1 * * * * blender -b /home/pi/robot/suzanne.blend --python home/pi/robot/mycode.py
 ``` 
